@@ -33,7 +33,7 @@ Good
 我们输入的Good已经存放到了name变量里面了。可以直接输入name查看变量内容。
 >>>name
 ‘Good’
-要打印出name变量的内容，除了直接可以写name额庵后回车之外，还可以用print()函数。
+要打印出name变量的内容，除了直接可以写name回车之外，还可以用print()函数。
 >>>print(name)
 Good
 3．Python基础讲解
@@ -65,4 +65,3 @@ python中数值类型有整数int（表示整数），浮点数float（带小数
 is is not	身份运算符
 in not in	成员运算符
 not and or	逻辑运算符
-
