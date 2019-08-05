@@ -19,11 +19,9 @@ python中数值类型，int，float，bool，e记法等
 成员运算符
 身份运算符
 运算符优先级
-
 学习完成如下：
 1.环境搭建
 个人使用的是Windows10系统，在官网下载安装了Python3.5.2，自带解释器。
-
 2.Python初体验—print和input
 print意为打印，引申为输出结果。>>>print（”hello,world”），回车，此刻将会看到程序直接输出hello,world（它所打印出来的内容）
 注意：在Python中，大小写是要区分的。print应该是小写的p。
@@ -61,7 +59,7 @@ python中数值类型有整数int（表示整数），浮点数float（带小数
 ^ |	位运算符
 <= < > >=	比较运算符
 <> == !=	等于运算符
-= %= /= //= -= += *= **=	赋值运算符
+= %= /= //= -= += *= **= 赋值运算符
 is is not	身份运算符
 in not in	成员运算符
 not and or	逻辑运算符
