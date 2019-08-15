@@ -1,0 +1,15 @@
+写出代码的整体框架：
+可以分为游戏背景、游戏玩家飞、游戏敌机，而在游戏玩家里包含子弹。
+写出每个类及每个函数的作用
+1、class Bullet为子弹类，对飞机发射的子弹进行管理。Bullet类继承了从模块pygame.sprite中导入的Sprite类。通过使用精灵，可将游戏中相关的元素编组，进而同时操作编组中的所有元素。
+函数__init__()定义子弹的属性：形状图片、位置、移动速度。
+函数move()定义子弹移动位置。
+2、class Player为玩家飞机类，函数__init__()定义了玩家飞机类的基本属性，对其进行初始化。
+函数shoot()定义如何发射子弹，调用Bullet类，传递子弹的形状图片以及初始位置。
+函数moveUP()、moveDOWN()、moveLEFT()、moveRIGHT()分别定义了飞机向上、向下、向左、向右移动，并控制移动的边界，超出边界时不能再移动，防止飞机跑出界面。
+3、class Enemy为敌机类，函数__init()__定义了敌机的基本属性，包括：形状图片、位置、速度。
+函数move()计算敌机移动的位置。
+整理代码实现过程中遇到的问题
+安装pygame包
+打开PyCharm，选择File-> setting-->Project Interpreter点击加号搜索pygame，最后选择Install Package。
+在使用的项目中就可以导入import pygame，就可以写程序了。
